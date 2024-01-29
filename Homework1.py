@@ -1,18 +1,18 @@
 #Ex1
-petType = input("Введите тип питомца: ")
-petName = input("Введите имя питомца: ")
-petAge = input("Введите возраст питомца: ")
+pet_type = input("Введите тип питомца: ")
+pet_name = input("Введите имя питомца: ")
+pet_age = input("Введите возраст питомца: ")
 
-print(f"Это {petType} по кличке \"{petName}\". Возраст: {petAge} года")
+print(f"Это {pet_type} по кличке \"{pet_name}\". Возраст: {pet_age} года")
 
 #Ex2
 print("Введите последовательно названия этапов развития человека ")
 
-firstStage = input("Первый этап: ")
-secondStage = input("Второй этап: ")
-thirdStage = input("Третий этап: ")
-fourthStage = input("Четвертый этап: ")
-fifthStage = input("Пятый этап: ")
-sixthStage = input("Шестой этап: ")
+first_stage = input("Первый этап: ")
+second_stage = input("Второй этап: ")
+third_stage = input("Третий этап: ")
+fourth_stage = input("Четвертый этап: ")
+fifth_stage = input("Пятый этап: ")
+sixth_stage = input("Шестой этап: ")
 
-print(fifthStage, secondStage, thirdStage, fourthStage, fifthStage, sixthStage, sep='=>')
+print(first_stage, second_stage, third_stage, fourth_stage, fifth_stage, sixth_stage, sep='=>')
